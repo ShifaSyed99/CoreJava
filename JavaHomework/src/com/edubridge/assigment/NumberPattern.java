@@ -20,6 +20,7 @@ public class NumberPattern {
 			System.out.println();
 		}
 
+		s.close();
 	}
 
 }

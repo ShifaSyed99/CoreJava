@@ -19,7 +19,7 @@ public class UniCode {
 		Scanner s = new Scanner(System.in);
 		char a = s.next().charAt(0);
 		System.out.print((int)a);
-
+s.close();
 	}
 
 }

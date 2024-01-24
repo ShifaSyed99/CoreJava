@@ -73,9 +73,6 @@ public class TypesOfOperators {
 		@SuppressWarnings("unused")
 		String res = (72%2 == 0)? "Even":"Odd";	
 		
-		
-
-		
 		s.close();
 
 	}
