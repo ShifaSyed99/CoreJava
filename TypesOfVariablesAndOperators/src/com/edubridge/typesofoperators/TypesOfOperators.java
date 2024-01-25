@@ -72,8 +72,9 @@ public class TypesOfOperators {
 		System.out.println("The Ternary Values:");
 		@SuppressWarnings("unused")
 		String res = (72%2 == 0)? "Even":"Odd";	
+		System.out.println(res);
 		
-		s.close();
+s.close();
 
 	}
 
