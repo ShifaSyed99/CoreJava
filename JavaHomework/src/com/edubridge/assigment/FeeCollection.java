@@ -12,9 +12,33 @@ public class FeeCollection {
 		int bf = s.nextInt();
 		int hf = s.nextInt();
 		
-		double b = (tf+bf);
-		//double h = 
-
+		double a = (tf+bf);
+		double b = tf+hf;
+		
+		double c = (((tf/100)*150)+ bf);
+		double d = (((tf/100)*150)+ hf);
+		
+		switch(str)
+		{
+		case "MSF" :
+			System.out.printf("%.2f",a);
+			break;
+		
+		case "MSH" :
+			System.out.printf("%.2f",d);
+			break;
+			
+		case "MGSDS" :
+			System.out.printf("%.2f",tf);
+			break;
+		
+		case "MGSh" :
+			System.out.printf("%.2f",hf);
+			break;	
+			
+		default :
+			System.out.println("Invalid");
+		}	
 	}
 
 }
