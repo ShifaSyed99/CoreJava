@@ -17,7 +17,7 @@ public class NumberPattern {
 				System.out.print(n+" "); //print the value of n
 				n++;    //increment the value of n
 			}
-			System.out.println();
+			System.out.println("");
 		}
 
 		s.close();

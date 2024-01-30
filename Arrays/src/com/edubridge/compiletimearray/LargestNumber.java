@@ -46,7 +46,7 @@ public class LargestNumber {
 				
 			System.out.print(a[i]+" ");
 		}*/
-		//s.close();
+		s.close();
 	}
 
 }

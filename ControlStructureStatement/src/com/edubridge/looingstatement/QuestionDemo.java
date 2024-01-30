@@ -18,6 +18,7 @@ public class QuestionDemo {
 
 		}
 		System.out.print(count); 
+		s.close();
 	}
 
 }

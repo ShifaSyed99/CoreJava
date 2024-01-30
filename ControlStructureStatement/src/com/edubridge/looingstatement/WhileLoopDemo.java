@@ -11,6 +11,7 @@ public class WhileLoopDemo {
 			System.out.println(i+" ");
 			i++;
 		}
+		s.close();
 	}
 
 }

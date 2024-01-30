@@ -25,20 +25,21 @@ public class FeeCollection {
 			break;
 		
 		case "MSH" :
-			System.out.printf("%.2f",d);
+			System.out.printf("%.2f",b);
 			break;
 			
 		case "MGSDS" :
-			System.out.printf("%.2f",tf);
+			System.out.printf("%.2f",c);
 			break;
 		
 		case "MGSh" :
-			System.out.printf("%.2f",hf);
+			System.out.printf("%.2f",d);
 			break;	
 			
 		default :
 			System.out.println("Invalid");
-		}	
+		}
+		s.close();
 	}
 
 }
