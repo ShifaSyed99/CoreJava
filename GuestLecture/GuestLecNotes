@@ -1,0 +1,37 @@
+OOPS : object oriented programming structure. 
+
+
+Class : class is a keyword
+ 		a blueprint of object
+ 		is a collection of object
+ 		combination of variables and methods
+
+Object : created with "new" keyword.
+		 its a runtime entity
+		 is an instance of class
+		 describes states, properties and behavior of class
+		 Employee e1 = new Employee
+		 Employee is a class and e1 is an object of class Employee
+
+Inheritence : access properties from one class through other
+			  is a parent child relationship
+			  parent- base or super class
+			  child- derived or sub class
+			  
+			  single inheritence : one parent one child    1->1
+			  multi inheritence : one grandfather one parent one child 1->1->1
+			  hierarchical inheritence : one parent more child  1->many
+			   
+
+Polymorphism : one name many forms
+				poly - many
+				morphism - behavior
+				reusability
+				Overloading : compile time/ static
+				methods have same name with diff parameters
+				Overriding : runtime/ dynamic
+				methods have same name with same parameters
+
+Encapsulation
+
+Abstraction
