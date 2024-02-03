@@ -32,6 +32,11 @@ Polymorphism : one name many forms
 				Overriding : runtime/ dynamic
 				methods have same name with same parameters
 
-Encapsulation
+Encapsulation : wrapping and binding of data in single unit
+				integrating vars and mthds 2gether
+				vars are hidden from other classes
+				declare vars as private
+				getter-read
+				setter-write
 
 Abstraction
