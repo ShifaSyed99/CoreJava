@@ -39,4 +39,4 @@ Encapsulation : wrapping and binding of data in single unit
 				getter-read
 				setter-write
 
-Abstraction
+Abstraction : hide unnecessary details from user
