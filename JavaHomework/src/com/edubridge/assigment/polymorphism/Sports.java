@@ -2,52 +2,48 @@ package com.edubridge.assigment.polymorphism;
 
 public class Sports {
 	
-	public void play()
+	String sname;
+	int totmem;
+	
+	public void play(String sname, int totmem)
 	{
+		this.sname = sname;
+		this.totmem = totmem;
 		System.out.println("Sports played.");
 	}
+}
 	
 	class Football extends Sports {
 		@Override
-		public void play()
+		public void play(String sname, int totmem)
 		{
-			System.out.println("A sport played by Legs.");
+			/*sname = "Football";
+			totmem = 11;*/
+			System.out.println("Sports name: "+sname+"\nTotal Members: "+totmem);
 		}
 	}
 	
 	class Basketball extends Sports {
 		@Override
-		public void play()
+		public void play(String sname, int totmem)
 		{
-			System.out.println("A sport played by Hands.");
+			/*sname = "Basketball";
+			totmem = 12;*/
+			System.out.println("Sports name: "+sname+"\nTotal Members: "+totmem);
 		}
 	}
 	
 	class Rugby extends Sports {
-		@Override
-		public void play()
+		public void play(String sname, int totmem)
 		{
-			System.out.println("A sport played by Tackling.");
+			/*sname = "Rugby";
+			totmem = 13;*/
+			System.out.println("Sports name: "+sname+"\nTotal Members: "+totmem);
 		}
 	}
 	
-public static void main(String[] args) {
-		
-		//Sports s = new Sports();
-		//System.out.println(s instanceof Sports);
-		Football f = new Football();
-		//System.out.println(s instanceof Football);
-		Basketball b = new Basketball();
-		Rugby r = new Rugby();
-		
-		//s.play();
-		f.play();
-		b.play();
-		r.play();
 
-	}
 
-}
 
 
 

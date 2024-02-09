@@ -1,22 +1,41 @@
 package com.edubridge.assigment.inheritence;
 
 public class BankAccount {
-	private String accno;
-	private double bal;
+	private int amt;
+	private int bal;
+	//private int money;
 	
-	public BankAccount(String accno, double bal)
+	/*public BankAccount(String accno, int bal)
 	{
 		this.accno = accno;
 		this.bal = bal;
-	}
-	void deposit(double amount)
+	}*/
+	
+	void deposit(int bal)
 	{
-		amount = 150000.23;
+		this.amt = amt;
+		System.out.println("Balance amount is: "+amt);
 	}
 	
-	void withdraw(double amount)
+	void withdraw(int amt, int bal)
 	{
-		amount = 10000.00;
+		this.amt = amt;
+		this.bal = bal;
+		//this.money = money;
+		
+		if(bal>1000)
+		{
+			System.out.println("Withdraw money "+amt);
+		}
+		else
+		{
+			System.out.println("Insufficient balance "+bal);
+		}
 	}
 
 }
+
+
+
+
+
