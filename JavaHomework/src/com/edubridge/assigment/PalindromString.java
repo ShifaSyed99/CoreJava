@@ -11,7 +11,7 @@ public class PalindromString {
 			
 			System.out.println("Enter a string:");
 			
-			String str1 = s.next();
+			String str1 = s.nextLine();
 			
 			char c[] = str1.toCharArray();
 			
@@ -32,6 +32,8 @@ public class PalindromString {
 				}
 				s.close();
 			}
+	
 	}
-
+/*
+ * */
 
