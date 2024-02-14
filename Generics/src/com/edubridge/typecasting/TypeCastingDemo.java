@@ -1,6 +1,6 @@
 package com.edubridge.typecasting;
 
-public class ImplicitTypeCastingDemo {
+public class TypeCastingDemo {
 
 	public static void main(String[] args) {
 		

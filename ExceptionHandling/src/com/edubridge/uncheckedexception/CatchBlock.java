@@ -36,6 +36,7 @@ public class CatchBlock {
 		{
 			System.out.println("Always Executed.");
 		}
+		s.close();
 	}
 
 }

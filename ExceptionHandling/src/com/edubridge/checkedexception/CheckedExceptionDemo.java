@@ -18,7 +18,7 @@ public class CheckedExceptionDemo {
 		{
 			System.out.println("File does not exist. "+e);
 		}
-
+		
 	}
 
 }

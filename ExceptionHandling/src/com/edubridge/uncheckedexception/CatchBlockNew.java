@@ -38,6 +38,8 @@ public class CatchBlockNew {
 		{
 			System.out.println("Always Executed.");
 		}
+		
+		s.close();
 	}
 
 }

@@ -6,6 +6,7 @@ public class TypesOfOperators {
 
 	public static void main(String[] args) {
 
+		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		//System.out.println("Enter the values:");
 		//int a = s.nextInt();
@@ -74,7 +75,7 @@ public class TypesOfOperators {
 		String res = (72%2 == 0)? "Even":"Odd";	
 		System.out.println(res);
 		
-s.close();
+		s.close();
 
 	}
 
