@@ -23,7 +23,6 @@ public class NestedIfDemo {
 			System.out.println("not eligible for bunjee junmping");
 
 		}
-
+		s.close();
 	}
-
 }

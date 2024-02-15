@@ -18,6 +18,7 @@ public class CascadedIfElseDemo {
 		else 
 			System.out.println("c is heavier");
 
+		s.close();
 	}
 
 }

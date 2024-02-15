@@ -21,7 +21,7 @@ public class SwitchSatementDemo {
 		default:
 			System.out.println("invalid map no");
 		}
-
+		s.close();
 	}
 
 }

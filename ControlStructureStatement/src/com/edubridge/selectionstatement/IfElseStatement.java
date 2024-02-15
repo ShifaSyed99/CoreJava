@@ -11,6 +11,8 @@ public class IfElseStatement {
 			System.out.println("a is not equal to b");
 		else 
 			System.out.println("a is equal to b");
+		
+		s.close();
 	}
 
 }

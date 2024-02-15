@@ -10,8 +10,6 @@ import java.time.format.DateTimeFormatter;
 
 public class LocalZonedDateTimeDemo {
 
-	private static final DateTimeFormatter DateTimeFormatter = null;
-
 	public static void main(String[] args) {
 		
 		ZonedDateTime z = ZonedDateTime.now();
