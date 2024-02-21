@@ -6,7 +6,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class AssertionsDemo {
-
 	@Test
 	@DisplayName("AssertTrue")
 	void testOne() {
@@ -34,4 +33,5 @@ class AssertionsDemo {
 		//if values in expression is null it passes else fails
 		assertNotNull("");
 	}
+
 }

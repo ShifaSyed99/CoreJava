@@ -8,7 +8,8 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class AnnotationsDemo {
-	
+
+
 	@Test
 	void test() {
 		System.out.println("Test method");
@@ -37,6 +38,5 @@ class AnnotationsDemo {
 	void disable() {
 		System.out.println("Disabled method");
 	}
-	
-	
+
 }
