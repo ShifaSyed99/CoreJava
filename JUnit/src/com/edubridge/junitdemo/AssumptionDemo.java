@@ -23,5 +23,18 @@ class AssumptionDemo {
 		Assumptions.assumeFalse("shifa".equals(System.getProperty("shifa")));
 		
 	}
+	
+	@Test
+	void test2()
+	{
+		int x= 10, y= 20;
+		
+		//i will pass and execute whether its true or false
+		Assumptions.assumingThat(x == y, () -> {
+			System.out.println("Assuming that...");
+			});
+		System.out.println("This method will run");
+		
+	}
 
 }
