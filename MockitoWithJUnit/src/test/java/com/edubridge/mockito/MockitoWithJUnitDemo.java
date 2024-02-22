@@ -18,8 +18,8 @@ class MockitoWithJUnitDemo {
 	void setDemo()
 	{
 		c = mock(Calculator.class);
-		when(c.add(1, 2)).thenReturn(2);
-		when(c.sub(4, 2)).thenReturn(2);
+		when(c.add(1, 1)).thenReturn(2);
+		when(c.sub(2, 2)).thenReturn(0);
 	}
 	
 	@Test
@@ -32,7 +32,7 @@ class MockitoWithJUnitDemo {
 	@Test
 	void testsub() 
 	{
-		Assertions.assertEquals(2 , c.sub(4, 2));
+		Assertions.assertEquals(0 , c.sub(2, 2));
 		verify(c).sub(2, 2);
 	}
 }
