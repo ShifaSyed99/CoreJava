@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    	 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean id = "co" class="com.spring.withconstructor.Course">
+    
+    	<constructor-arg value = "101" type = "int"></constructor-arg>
+    	<constructor-arg value = "Java Full Stack Developer" ></constructor-arg>
+    	<constructor-arg value = "3 " type = "int"></constructor-arg>
+    	<constructor-arg value = "2000" type = "int"></constructor-arg>
+    		
+     </bean>
+     
+     <bean id = "st" class="com.spring.withconstructor.Student">
+    
+    	<constructor-arg value = "1" type = "int"></constructor-arg>
+    	<constructor-arg value = "Jane Doe" ></constructor-arg>
+    	<constructor-arg>
+    	<ref bean = "co"></ref>
+    	</constructor-arg>
+    	
+    </bean>	
+</beans>
