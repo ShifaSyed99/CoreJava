@@ -9,7 +9,7 @@ public class EmployeeExec {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext ctx=new ClassPathXmlApplicationContext("applicationContext.xml");
+		ApplicationContext ctx=new ClassPathXmlApplicationContext("bean.xml");
 		
 		EmployeeDao dao=(EmployeeDao)ctx.getBean("edao");
 		/*int status=dao.saveEmployee(new Employee(107,"meena",16000));
@@ -26,10 +26,10 @@ public class EmployeeExec {
 		//dao.updateEmployee(106, "Mohad",32000);
 		
 		
-		/*Employee e=new Employee();
+		Employee e=new Employee();
 		e.setId(107);
 		int status=dao.deleteEmployee(e);
-		System.out.println(status);*/
+		System.out.println(status);
 		
 	}
 

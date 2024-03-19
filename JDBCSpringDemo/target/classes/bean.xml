@@ -18,7 +18,7 @@
    <property name = "dataSource" ref = "ds"></property>
    </bean>
    
-   <bean id = "edao" class = "com.jdbc.withspring.EmployeeDAO">
+   <bean id = "edao" class = "com.jdbc.withspring.EmployeeDao">
    <property name = "jdbcTemplate" ref = "jdbcTemplate"></property>
    </bean>
    </beans>  	 
