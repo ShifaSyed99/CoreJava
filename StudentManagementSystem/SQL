@@ -1,0 +1,25 @@
+create database postman;
+
+use postman;
+
+show tables;
+
+select * from post_info;
+
+truncate post_info;
+
+
+create database studman;
+
+use studman;
+
+show tables;
+
+select * from student_info;
+
+truncate student_info;
+
+
+
+
+
